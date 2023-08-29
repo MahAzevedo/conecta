@@ -1,0 +1,12 @@
+.produto {
+    width: 280px;
+}
+
+.produto h4 {
+    color: #0E0E0E;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
