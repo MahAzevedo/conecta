@@ -20,15 +20,19 @@ export const Navegacao = () => {
                     </li>
                 </ul>
             </nav>
-            <section className='nav-lata-banner'>
-                <img src='/imagem/375-lata-guaraná 1.png' alt='Lata de refrigerante' />
-                <title className='nav-titulo'>
-                    <h1 className='nav-cor-titulo'>
-                        Aqui um título de duas linhas
-                    </h1>
-                    <p>Aqui um título de duas linhas</p>
-                </title>
+
+            <section className='nav-produto'>
+                <figure className='nav-lata-banner'>
+                    <img src='/imagem/375-lata-guaraná 1.png' alt='Lata de refrigerante' />
+                </figure>
+                <div className='nav-titulo'>
+                    <h1>Aqui um título de duas linhas</h1>
+                </div>
+                <botao className='nav-botao'>Aqui um CTA</botao>
             </section>
         </header>
     );
 }
+
+// *** ATENÇÃO: 
+// botao está DESALINHADO

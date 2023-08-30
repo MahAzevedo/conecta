@@ -1,19 +1,19 @@
 import Banner from './componentes/Banner';
-import Botao from './componentes/Botao';
-import { Card } from './componentes/Card';
-import Links from './componentes/Links/';
 import { Navegacao } from './componentes/Navegacao';
 import Produto from './componentes/Produto';
+import { Card } from './componentes/Card';
+import Contato from './componentes/Contato';
+import Botao from './componentes/Botao';
 
 function App() {
   return (
     <div className="App">
       <Banner />
-      <Botao />
-      <Produto />
       <Navegacao />
+      <Produto />
       <Card />
-      <Links />
+      <Contato />
+      <Botao />
     </div>
   );
 }

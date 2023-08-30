@@ -2,19 +2,17 @@ import './Produto.css'
 
 const Produto = () => {
     return (
-        <section className='produto'>
-            {/*<img src='/imagem/375-lata-guaraná 1.png' alt='Lata de refrigerante 350ml' />
-                
-            <h1>Aqui um título de duas linhas</h1>
-            <p>
-                de duas linhas
-            </p>
-
-
-
-            <botao>
-                Aqui um CTA
-            </botao>*/}
+        <section className="produto-section">
+            <div className='produto-texto'>
+                <h4 className='produto-titulo'>
+                    Produtos
+                </h4>
+                <p className='produto-paragrafo'>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Mauris
+                    semper, tortor sed vehicula.
+                </p>
+            </div>
         </section>
     );
 }

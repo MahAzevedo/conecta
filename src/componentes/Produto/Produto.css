@@ -1,3 +1,30 @@
-.produto {
-    
+.produto-section {
+    width: 375px;
+    text-align: center;
+}
+
+.produto-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.produto-titulo {
+    color: #101213;
+    font-family: Artigo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.produto-paragrafo {
+    color: #0E0E0E;
+    font-family: Artigo;
+    font-size: 16px;
+    padding: 0px 0px 0px 47px;
+    margin: -13px 63px 12px 25px;
+    /*text-align: center;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*padding-left: 47px;*/
 }

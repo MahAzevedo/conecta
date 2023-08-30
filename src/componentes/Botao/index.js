@@ -2,17 +2,8 @@ import "./Botao.css"
 
 const Botao = (props) => {
     return (
-        <section>
-            <button className="botao">Aqui um CTA
-                {props.children}
-            </button>
-        
-
-
-        </section>
-
-
-    )
+        <botao> aqui tem um botao</botao>
+    );
 }
 
 export default Botao;
