@@ -3,8 +3,9 @@ import './Banner.css'
 export const Banner = () => {
     return (
         <header className="banner">
-            <div className="banner-conecta">
-                <img src="/imagem/fundo-1440.png" alt="Banner Conecta" />
+            
+            <div className="banner-painel">
+                <img src="/imagem/fundo-1440.png" alt="Banner Painel" />
             </div>
 
             <div className="banner-logo">
@@ -12,7 +13,7 @@ export const Banner = () => {
             </div>
 
             <section className="banner-links">
-                <ul>
+                <ul className="banner-ul">
                     <li className="banner-li">
                         <a href="facebook.com" target="_blank">
                             <img src="/imagem/facebook.png" alt="Facebook Conecta" />
