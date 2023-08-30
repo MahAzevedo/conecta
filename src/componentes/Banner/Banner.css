@@ -1,98 +1,31 @@
 .banner {
     text-align: center;
     list-style: none;
-    /*display: flex;
-    flex-wrap: wrap;*/
-    width: 375px;
-    height: 812px;
-    display: inline-block;
-}
-
-.banner-painel {
-    text-align: center;
-    height: 812px;
-    padding: 0px 0px 0px 0px;
-    width: 375px;
+    margin-right: 1065px; /* para colar a esquerda */
 }
 
 .banner-logo {
-    width: 134px;
-    height: 51px;
-    padding: 8px 0px 0px 56px;
-    margin: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     position: absolute;
-    z-index: 1000;
+    margin: 16px 30px;
     top: 0px;
     left: 0px;
-    display: inline-block;
 }
 
 .banner ul {
     display: flex;
-    /*
-    width: 134px;
-    height: 51px;
-    */
-
+    top: 0px;
     width: 18px;
     height: 18px;
 }
 
-/*
-.banner li {
-    list-style: none;
-
-}*/
-
 .banner-li {
     list-style: none;
     padding: 0px 16px;
-    text-align: center;
-}
-
-
-
-
-
-/*
-@media (min-width: 375px) {
-    header {
-        width: 375px;
-        height: 812px;
-    }
-
-    .banner {
-        width: 375px;
-        height: 745px;
-    }
-
-    .banner-conecta {
-        text-align: center;
-        max-width: 100%;
-        width: 226px;
-        height: 51px;
-    }
 }
 
 
 @media (min-width: 768px) {
-    header {
-        width: 768px;
-        height: 745px;
-    }
-
     .banner {
-        width: 768px;
-        height: 745px;
+        background-image: ('/imagem/768-background-img.png');
     }
 }
-
-@media (min-width: 1440px) {
-    .banner {
-        width: 1440px;
-        height: 745px;
-    }
-} */

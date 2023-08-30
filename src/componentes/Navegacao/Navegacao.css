@@ -1,0 +1,42 @@
+.nav-bar {
+    /*text-align: center;*/
+    position: absolute;
+    margin: 16px 30px;
+    top: 0px;
+    left: 0px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    list-style: none;
+}
+.nav-ul {
+    display: flex;
+    text-align: center;
+    /*margin: 15px 69px;*/
+    gap: 26px;
+    padding: 0px 123px;
+}
+.nav-ul-li {
+    right: 100px;
+}
+
+
+.nav-lata-banner {
+    margin: 16px 92px 0px 58px; /* com display flex*/
+    /*margin: 17px 111px 0px 0px;*/ /* sem display flex, text-aligh no nav-bar desligado*/
+    display: block;
+}
+
+
+
+.nav-titulo {
+    color: blue;
+    margin: 16px 92px 0px 58px;
+}
+
+.nav-cor-titulo {
+    color: blue;
+}
