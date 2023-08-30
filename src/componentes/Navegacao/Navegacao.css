@@ -62,3 +62,10 @@
     width: 327px;
     height: 56px;
 }
+
+.nav-botao-texto {
+    font-size: 14px;
+    font-style: normal;
+    padding: 4px;
+    text-align: center;
+}

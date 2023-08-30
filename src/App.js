@@ -3,7 +3,7 @@ import { Navegacao } from './componentes/Navegacao';
 import Produto from './componentes/Produto';
 import { Card } from './componentes/Card';
 import Contato from './componentes/Contato';
-import Botao from './componentes/Botao';
+import { Divulgacao } from './componentes/Divulgacao';
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
       <Navegacao />
       <Produto />
       <Card />
+      <Divulgacao />
       <Contato />
-      <Botao />
     </div>
   );
 }

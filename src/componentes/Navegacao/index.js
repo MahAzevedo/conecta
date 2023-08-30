@@ -23,12 +23,16 @@ export const Navegacao = () => {
 
             <section className='nav-produto'>
                 <figure className='nav-lata-banner'>
-                    <img src='/imagem/375-lata-guaraná 1.png' alt='Lata de refrigerante' />
+                    <img src='/imagem/375-header-lata-guaraná 1.png' alt='Lata de refrigerante' />
                 </figure>
                 <div className='nav-titulo'>
                     <h1>Aqui um título de duas linhas</h1>
                 </div>
-                <botao className='nav-botao'>Aqui um CTA</botao>
+                <botao className='nav-botao'>
+                    <p className='nav-botao-texto'>
+                        Aqui um CTA
+                    </p>
+                </botao>
             </section>
         </header>
     );
