@@ -23,9 +23,35 @@
     padding: 0px 16px;
 }
 
-
+/*
 @media (min-width: 768px) {
     .banner {
-        background-image: ('/imagem/768-background-img.png');
+        background-image: url('/public/imagem/768.banner.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    /*  -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;*/
+/*        background-attachment: fixed;
+        background-size: 100%; 
+        display: block;   
     }
 }
+*/
+/*
+@media (min-width: 1440px) {
+    .banner {
+        background-image: url('/public/imagem/1440.festa.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    /*  -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;*/
+/*        background-attachment: fixed;
+        background-size: 100%; 
+        display: block;
+    }
+}
+*/

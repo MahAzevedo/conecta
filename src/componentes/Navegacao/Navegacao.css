@@ -20,6 +20,7 @@
     /*margin: 15px 69px;*/
     gap: 26px;
     padding: 0px 123px;
+    list-style: none;
 }
 
 .nav-ul-li {

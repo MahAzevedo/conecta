@@ -1,4 +1,58 @@
-.festa {
+.section-divulgacao {
     width: 327px;
     height: 520px;
+    margin-left: 25px;
 }
+
+.carrossel-comentarios {
+    position: relative;
+    display: block;
+}
+
+.divulgacao-comentarios {
+    width: 326px;
+    height: 288px;
+    padding: 0px 0px 0px 0px;
+    background-color: #1B1F1C;
+    color: #FFFFFF;
+    margin: 0px 0px 0px 25px;
+}
+
+
+
+
+
+
+
+
+
+/*
+@media (max-width: 375px) {
+    .section-divulgacao {
+        max-width: calc(100% - 64px);
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: calc(50% - 82px);
+        width: 327px;
+        height: 520px;
+    }
+} */
+
+/*
+@media (max-width: 768px) {
+    .section-divulgacao {
+        background-image: url('public/imagem/768-banner.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+        /* background-size: 100%; */
+/*        display: block;
+    }
+
+}
+
+*/
