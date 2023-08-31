@@ -13,6 +13,7 @@ function App() {
       <Produto />
       <Card />
       <Divulgacao />
+      
       <Contato />
     </div>
   );
