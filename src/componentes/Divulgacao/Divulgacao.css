@@ -1,22 +1,78 @@
 .section-divulgacao {
-    width: 327px;
+    width: 326px;
     height: 520px;
     margin-left: 25px;
+    list-style: none;
+    display: block;
+    margin: 10px 0px 0px -15px;
 }
 
-.carrossel-comentarios {
+.imagens-divulgacao {
+    /*display: block;*/
+    list-style: none;
+}
+
+.divulgacao-comentarios {}
+
+.imagem {}
+
+.imagem-1 {}
+
+.imagem-2-carrossel {
     position: relative;
     display: block;
-}
-
-.divulgacao-comentarios {
     width: 326px;
     height: 288px;
-    padding: 0px 0px 0px 0px;
     background-color: #1B1F1C;
     color: #FFFFFF;
-    margin: 0px 0px 0px 25px;
+    margin-top: -20px;
 }
+
+.carrossel-comentarios-1 {
+    text-align: center;
+    padding: 75px 0px 1px 17px;
+    width: 290px;
+    font-size: 16px;
+}
+
+.carrossel-comentarios-2 {
+    text-align: center;
+    padding: 0px 0px 1px 17px;
+    width: 290px;
+    font-size: 16px;
+}
+
+.carrossel-comentarios-3 {
+    text-align: center;
+    padding: 4px 0px 1px 17px;
+    width: 290px;
+    font-size: 16px;
+}
+
+.imagem-3 {
+    width: 327px;
+    height: 288px;
+    opacity: 0.9;
+}
+
+.texto-barman {
+    color: #FFF;
+    font-family: Artigo;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: -174px 0px 0px 71px;
+    width: 326px;
+    height: 288px;
+    
+}
+
+/*@media screen (max-width: 1440px) {
+    .imagem-1 {
+        background: url('public/imagem/1440.festa.png'), lightgray 50% / cover no-repeat;
+    }
+} */
 
 
 

@@ -5,7 +5,7 @@ export const Navegacao = () => {
         <header className="nav-bar">
             <nav className='nav'>
                 <div>
-                    <img src="/imagem/marca-conecta-03 1.png" alt="Logo Conecta" />
+                    <img src="/imagem/marca.conecta.03 1.png" alt="Logo Conecta" />
                 </div>
                 <ul className='nav-ul'>
                     <li>
@@ -23,7 +23,7 @@ export const Navegacao = () => {
 
             <section className='nav-produto'>
                 <figure className='nav-lata-banner'>
-                    <img src='/imagem/375-header-lata-guaraná 1.png' alt='Lata de refrigerante' />
+                    <img src='/imagem/375.header.lata.guaraná 1.png' alt='Lata de refrigerante' />
                 </figure>
                 <div className='nav-titulo'>
                     <h1>Aqui um título de duas linhas</h1>

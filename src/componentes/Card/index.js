@@ -7,7 +7,7 @@ export const Card = () => {
                 <ul>
                     <li className='card-shape-produto'>
                         <div>
-                            <img src="/imagem/garrafa-guaraná 1.png" alt="Garrafa de guaraná 350ml" />
+                            <img src="/imagem/garrafa.guaraná 1.png" alt="Garrafa de guaraná 350ml" />
                         </div>
                         <div className='card-texto'>
                             <h4 className='card-titulo'>
@@ -25,7 +25,7 @@ export const Card = () => {
                     </li>
                     <li className='card-shape-produto'>
                         <div className='produto'>
-                            <img src="/imagem/375-card-lata-guaraná.png" alt="Lata de guaraná 100ml" />
+                            <img src="/imagem/375.card.lata.guaraná.png" alt="Lata de guaraná 100ml" />
                         </div>
                         <div className='card-texto'>
                             <h4 className='card-titulo'>
