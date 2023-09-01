@@ -1,0 +1,51 @@
+/*.contato-section {
+    width: 375px;
+    height: 960px;
+    background: var(--preto, #1B1F1C);
+    text-decoration: none;
+    list-style: none;
+}
+
+.contato-container {
+    text-decoration: none;
+    list-style: none;
+
+    width: 375px;
+    height: 960px;
+    background: var(--preto, #1B1F1C);
+    text-decoration: none;
+    list-style: none;
+}
+
+.contato-titulo {
+    color: #FFF;
+    font-family: Artigo;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 89px;
+    padding-top: 73px;
+}
+
+.contato-redes__sociais {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: -56px;
+    margin-left: 39px;
+}
+
+.contato-li {
+    padding: 0px 3px 0px 50px;
+}
+
+.contato-texto {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0px;
+} */

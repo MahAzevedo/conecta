@@ -1,0 +1,37 @@
+.experimentar {}
+
+.experimentar-verde {
+    margin-top: 88px;
+}
+
+.experimentar-img {
+    text-align: center;
+    margin-top: -446px;
+}
+
+.experimentar-texto {
+    color: #0E0E0E;
+    font-family: Artigo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    border: none;
+    margin-top: -16px;
+    margin-bottom: -18px;
+}
+
+.experimentar-botao {
+    width: 193px;
+    height: 56px;
+    border-radius: 50px;
+    background: var(--Preto, #1B1F1C);
+    text-align: center;
+    margin: 38px 0px 0px 91px;
+    border: none;
+}
+
+.experimentar-texto-botao {
+    color: #FFFFFF;
+}

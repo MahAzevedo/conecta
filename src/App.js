@@ -2,8 +2,10 @@ import Banner from './componentes/Banner';
 import { Navegacao } from './componentes/Navegacao';
 import Produto from './componentes/Produto';
 import { Card } from './componentes/Card';
-import Contato from './componentes/Contato';
 import { Divulgacao } from './componentes/Divulgacao';
+import { Experimentar } from './componentes/Experimentar';
+import Contato from './componentes/Contato';
+
 
 function App() {
   return (
@@ -13,7 +15,7 @@ function App() {
       <Produto />
       <Card />
       <Divulgacao />
-      
+      <Experimentar />
       <Contato />
     </div>
   );
