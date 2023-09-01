@@ -5,6 +5,7 @@ import { Card } from './componentes/Card';
 import { Divulgacao } from './componentes/Divulgacao';
 import { Experimentar } from './componentes/Experimentar';
 import Contato from './componentes/Contato';
+import { Formulario } from './componentes/Formulario';
 
 
 function App() {
@@ -16,9 +17,14 @@ function App() {
       <Card />
       <Divulgacao />
       <Experimentar />
+      <Formulario />
       <Contato />
     </div>
   );
 }
 
 export default App;
+
+
+// App JS tá na raíz do projeto.
+// App JS é onde está concentrado os componentes.

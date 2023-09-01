@@ -1,8 +1,19 @@
-/*.banner {
+.banner {
     text-align: center;
-    list-style: none;
     margin-right: 1065px;
-} */
+    /*max-width: 100%;*/
+    background-color: black; /* teste de fundo */
+    list-style: none;
+} 
+
+.banner img {
+    max-width: 100%;
+}
+
+
+
+
+
 
 .banner-logo {
     margin: 16px 30px;
@@ -21,6 +32,10 @@
     list-style: none;
     padding: 0px 16px;
 }
+
+
+
+
 
 /*
 @media screen and (min-width: 768px) {
