@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Banner />
-      <Navegacao />
+     {/* <Navegacao />*/}
       <Produto />
       <Card />
       <Divulgacao />

@@ -1,15 +1,9 @@
 .banner {
-    text-align: center;
-    margin-right: 1065px;
-    /*max-width: 100%;*/
-    background-color: black; /* teste de fundo */
-    list-style: none;
-} 
-
-.banner img {
+    background-image: url('/public/imagem/375.background.img.png');
+    background-repeat: no-repeat;
+    background-position: top;
     max-width: 100%;
 }
-
 
 
 
@@ -37,16 +31,16 @@
 
 
 
-/*
+
 @media screen and (min-width: 768px) {
     .banner {
-        background-image: url('public/imagem/768.banner.png');
+        background-image: url('/public/imagem/768.background.img.png');
         background-repeat: no-repeat;
         background-position: top;
         max-width: 100%;
     }
 }
-
+/*
 @media screen and (min-width: 1440px) {
     .banner {
         background-image: url('/public/imagem/fundo.1440.png');

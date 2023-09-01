@@ -40,5 +40,3 @@ export const Navegacao = () => {
     );
 }
 
-// *** ATENÇÃO: 
-// botao está DESALINHADO
