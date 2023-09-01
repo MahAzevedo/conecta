@@ -3,31 +3,9 @@
     background-repeat: no-repeat;
     background-position: top;
     max-width: 100%;
+    margin: -16px 0px 0px 0px; /* falta 1px pro lado, olha lá */
+    text-align: center; /* centralizar o que estiver dentro desse banner, se não prestar, tira */
 }
-
-
-
-
-
-.banner-logo {
-    margin: 16px 30px;
-    top: 0px;
-    left: 0px;
-}
-
-.banner ul {
-    display: flex;
-    top: 0px;
-    width: 18px;
-    height: 18px;
-}
-
-.banner-li {
-    list-style: none;
-    padding: 0px 16px;
-}
-
-
 
 
 
@@ -38,15 +16,19 @@
         background-repeat: no-repeat;
         background-position: top;
         max-width: 100%;
+        margin: -16px 0px 0px 0px;
+        text-align: center; /* centralizar o que estiver dentro desse banner, se não prestar, tira */
     }
 }
-/*
+
 @media screen and (min-width: 1440px) {
     .banner {
         background-image: url('/public/imagem/fundo.1440.png');
         background-repeat: no-repeat;
         background-position: top;
         max-width: 100%;
+        margin: -16px 0px 0px 0px;
+        text-align: center; /* centralizar o que estiver dentro desse banner, se não prestar, tira */
     }
 }
-*/
+

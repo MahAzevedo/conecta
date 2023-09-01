@@ -1,5 +1,5 @@
 import Banner from './componentes/Banner';
-import { Navegacao } from './componentes/Navegacao';
+/*import { Navegacao } from './componentes/Navegacao';*/
 import Produto from './componentes/Produto';
 import { Card } from './componentes/Card';
 import { Divulgacao } from './componentes/Divulgacao';
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Banner />
-     {/* <Navegacao />*/}
+      {/* <Navegacao />*/}
       <Produto />
       <Card />
       <Divulgacao />

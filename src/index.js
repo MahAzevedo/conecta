@@ -11,4 +11,11 @@ root.render(
   </React.StrictMode>
 );
 
+// esse index.js aqui, seria o "bootstrap" da nossa aplicação,
+// é o ponto de entrada, é aqui que a coisa começa, o primeiro
+// arquivo que vai ser executado é essa cara aqui, o index.js aqui, 
+// que vai renderizar o primeiro componente, e vai fazendo
+// isso em cascata
+
+// <React.StrictMode> é esse aqui que ajuda a ver os erros
 

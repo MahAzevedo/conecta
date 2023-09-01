@@ -1,8 +1,31 @@
-.nav-bar {
-    text-align: center;
+/*
+.banner-logo {
     margin: 16px 30px;
     top: 0px;
     left: 0px;
+}
+
+.banner ul {
+    display: flex;
+    top: 0px;
+    width: 18px;
+    height: 18px;
+}
+
+.banner-li {
+    list-style: none;
+    padding: 0px 16px;
+}
+
+*/
+
+
+
+.nav-bar {
+    margin: 16px 30px;
+    /* text-align: center; */
+    /*top: 0px;*/
+    /*left: 0px;*/
 }
 
 .nav {
@@ -35,7 +58,7 @@
 }
 
 .nav-lata-banner {
-    margin-right: 10rem;
+   /*  margin-right: 10rem; */
 }
 
 .nav-titulo {
@@ -64,4 +87,10 @@
     font-style: normal;
     padding: 4px;
     text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-bar {
+        margin: 16px 30px;
+    }
 }
