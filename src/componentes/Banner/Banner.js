@@ -8,4 +8,3 @@ export const Banner = () => {
     );
 }
 
-npm install react-router-dom
