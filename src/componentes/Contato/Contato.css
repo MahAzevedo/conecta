@@ -1,4 +1,4 @@
-/*.contato-section {
+.contato-section {
     width: 375px;
     height: 960px;
     background: var(--preto, #1B1F1C);
@@ -31,10 +31,15 @@
 
 .contato-redes__sociais {
     display: flex;
-    gap: 16px;
+    gap: 12px;
     align-items: center;
     margin-top: -56px;
-    margin-left: 39px;
+    margin-left: 47px;
+}
+
+.contato-links {
+    display: flex;
+    margin: 6px 3px 0px 4px;
 }
 
 .contato-li {
@@ -47,5 +52,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 0px;
-} */
+    /*margin-top: 0px;*/
+} /* não está alinhado o redes
+de contato com os outros links*/
