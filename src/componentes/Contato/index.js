@@ -18,16 +18,12 @@ const Contato = () => {
                             <img src='/imagem/instagram.png' alt='Imagem Instagram' />
                         </a>
                     </li>
-                    <li >
+                    <li>
                         <p className='contato-texto'>
                             |  REDES SOCIAS
-                            {/* não está alinhado o REDES SOCIAIS com os outros links*/}
                         </p>
                     </li>
                 </ul>
-            </div>
-            <div className='contato-links'>
-
             </div>
         </section>
     )
