@@ -1,11 +1,10 @@
-.banner {
+/*.banner {
     text-align: center;
     list-style: none;
-    margin-right: 1065px; /* para colar a esquerda */
-}
+    margin-right: 1065px;
+} */
 
 .banner-logo {
-    position: absolute;
     margin: 16px 30px;
     top: 0px;
     left: 0px;
@@ -24,34 +23,21 @@
 }
 
 /*
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .banner {
-        background-image: url('/public/imagem/768.banner.png');
+        background-image: url('public/imagem/768.banner.png');
         background-repeat: no-repeat;
-        background-position: center;
-    /*  -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;*/
-/*        background-attachment: fixed;
-        background-size: 100%; 
-        display: block;   
+        background-position: top;
+        max-width: 100%;
     }
 }
-*/
-/*
-@media (min-width: 1440px) {
+
+@media screen and (min-width: 1440px) {
     .banner {
-        background-image: url('/public/imagem/1440.festa.png');
+        background-image: url('/public/imagem/fundo.1440.png');
         background-repeat: no-repeat;
-        background-position: center;
-    /*  -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;*/
-/*        background-attachment: fixed;
-        background-size: 100%; 
-        display: block;
+        background-position: top;
+        max-width: 100%;
     }
 }
 */

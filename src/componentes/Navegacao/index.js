@@ -26,7 +26,9 @@ export const Navegacao = () => {
                     <img src='/imagem/375.header.lata.guaraná 1.png' alt='Lata de refrigerante' />
                 </figure>
                 <div className='nav-titulo'>
-                    <h1>Aqui um título de duas linhas</h1>
+                    <h1>Aqui um título <br />
+                        de duas linhas
+                    </h1>
                 </div>
                 <botao className='nav-botao'>
                     <p className='nav-botao-texto'>

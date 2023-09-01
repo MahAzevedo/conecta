@@ -36,11 +36,7 @@
 }
 
 .nav-lata-banner {
-    /*margin: 16px 92px 0px 58px;*/
-    /* com display flex*/
-    margin: 17px 111px 0px 0px;
-    /* sem display flex, text-aligh no nav-bar ligado*/
-    display: block;
+    margin-right: 10rem;
 }
 
 .nav-titulo {
