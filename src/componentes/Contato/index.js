@@ -26,8 +26,13 @@ const Contato = () => {
                     </li>
                 </ul>
             </div>
-            <div>
-                {/* <CampoTexto />         {/* Será que fiz certo??*/} 
+
+            <div>  {/* Tá certo colocar isso aqui?? Acho que não!!  Tem que tá no App.js */}
+                <CampoTexto label="NOME" placeholder=" Daniel Maciel" /> 
+                <CampoTexto label="TELEFONE" placeholder="(21) 00000-0000" />
+                <CampoTexto label="E-MAIL" placeholder="email@email.com.br" />
+                <CampoTexto label="ASSUNTO" placeholder="Selecione um Assunto" />
+                <CampoTexto label="MENSAGEM" placeholder="Escreva aqui sua mensagem" />
             </div>
         </section>
     )

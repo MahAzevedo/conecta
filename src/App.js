@@ -19,11 +19,14 @@ function App() {
       <Divulgacao />
       <Experimentar />
       <Contato />
-      <CampoTexto label="NOME" />
-      <CampoTexto label="TELEFONE" />
-      <CampoTexto label="E-MAIL" />
-      <CampoTexto label="ASSUNTO" />
-      <CampoTexto label="MENSAGEM" />
+      {/*<CampoTexto />*/}
+      {/*
+         <CampoTexto label="NOME" placeholder=" Daniel Maciel" /> 
+                <CampoTexto label="TELEFONE" placeholder="(21) 00000-0000" />
+                <CampoTexto label="E-MAIL" placeholder="email@email.com.br" />
+                <CampoTexto label="ASSUNTO" placeholder="Selecione um Assunto" />
+                <CampoTexto label="MENSAGEM" placeholder="Escreva aqui sua mensagem" />
+      */}
 
       {/*<Formulario /> */}
 
