@@ -1,6 +1,12 @@
+import { styled } from 'styled-components';
 import Botao from '../Botao';
+
 import './Navegacao.css'
-/*import Botao from '../Botao';*/
+
+/*
+const BotaoVerde = styled.Botao`
+    background-color: #00EC5B; `
+*/
 
 export const Navegacao = () => {
     return (
@@ -24,23 +30,23 @@ export const Navegacao = () => {
             </nav>
 
             <section className='nav-produto'>
-                <figure className='nav-lata-banner'>
-                    <img src='/imagem/375.header.lata.guaraná 1.png' alt='Lata de refrigerante' />
-                </figure>
+                <figure></figure>
+                <div className='nav-lata-banner'>
+                    <img src='/imagem/375.header.lata.guaraná 1.png' alt='Lata de refrigerante'/>
+                </div>
                 <div className='nav-titulo'>
                     <h1>Aqui um título <br />
                         de duas linhas
                     </h1>
                 </div>
-                {/*<botao className='nav-botao'>
+                <button className='nav-botao'>
                     <p className='nav-botao-texto'>
                         Aqui um CTA
                     </p>
-                </botao>*/}
-                <Botao >
+                </button>
+                {/*<Botao >
                     Aqui um CTA
-                </Botao>
-                <Botao />
+                </Botao>*/}
             </section>
         </header>
     );

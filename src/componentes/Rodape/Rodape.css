@@ -23,20 +23,29 @@
 
 .rodape-texto1 {}
 
-/*
-.rodape-site {
-    background-image: url('/public/imagem/rodape.marca.png');
-    background-repeat: no-repeat;
-    max-width: 100%;
-    color: #FFFFFF;
-}
-
 @media screen and (min-width: 375px) {
     .rodape-site {
-        background-image: url('/public/imagem/rodape.marca.png');
+        background-image: url('/public/imagem/Grupo38.png');
+        background-repeat: no-repeat;
+        max-width: 100%;
+        color: #FFFFFF;
+    }
+}
+/**/
+
+@media screen and (min-width: 768px) {
+    .rodape-site {
+        background-image: url('/public/imagem/Grupo38.png');
         background-repeat: no-repeat;
         max-width: 100%;
     }
 }
 
-*/
+@media screen and (min-width: 1440px) {
+    .rodape-site {
+        background-image: url('/public/imagem/Grupo38.png');
+        background-repeat: no-repeat;
+        max-width: 100%;
+    }
+}
+

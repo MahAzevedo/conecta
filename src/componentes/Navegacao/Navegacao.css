@@ -19,9 +19,9 @@
     list-style: none;
 }
 
-.nav-ul-li {
+/*.nav-ul-li {
     right: 100px;
-}
+}*/
 
 .nav-produto {
     display: flex;
@@ -32,7 +32,11 @@
 }
 
 .nav-lata-banner {
-   /*  margin-right: 10rem; */
+    /*  margin-right: 10rem; */
+    background-image: url('/public/imagem/375.header.lata.guaraná\ 1.png');
+    background-repeat: no-repeat;
+    max-width: 100%;
+
 }
 
 .nav-titulo {
@@ -51,7 +55,6 @@
     font-size: 14px;
     border: none;
     cursor: pointer;
-    margin: 0px 92px 0px -35px;
     width: 327px;
     height: 56px;
 }
@@ -67,39 +70,45 @@
     .nav-bar {
         padding: 14px 0px 0px 20px;
     }
+
     .nav {
         justify-content: space-between;
     }
-    
+
     .nav-ul {
         padding: 0px 7px 0px 0px;
         /*margin: 17px -118px 0px 0px;*/
     }
-    
-    .nav-ul-li {
+
+    /*.nav-ul-li {
         right: 100px;
     }
-    
-    .nav-produto {
+    */
+
+    /*.nav-produto {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         color: #FFFFFF;
     }
-    
+    */
+
     .nav-lata-banner {
-       /*  margin-right: 10rem;  */
+        margin-right: 10rem;
+        background-image: url('/public/imagem/768.lata-guaraná\ 1.png');
+        background-repeat: no-repeat;
     }
-    
-    .nav-titulo {
+
+    /*.nav-titulo {
         font-family: Artigo;
         font-size: 33px;
         line-height: 120%;
         max-width: 100%;
         /*padding: 0px 123px 0px 0px;*/
-    }
-    
+    /*
+    }*/
+
     .nav-botao {
         background-color: #00EC5B;
         color: #101213;
@@ -112,7 +121,7 @@
         width: 327px;
         height: 56px;
     }
-    
+
     .nav-botao-texto {
         font-size: 14px;
         font-style: normal;
@@ -124,5 +133,12 @@
 @media screen and (min-width: 1440px) {
     .nav-bar {
         margin: 16px 30px;
+    }
+    .nav-lata-banner {
+        /*  margin-right: 10rem; */
+        background-image: url('/public/imagem/375.header.lata.guaraná\ 1.png');
+        background-repeat: no-repeat;
+        max-width: 100%;
+    
     }
 }
