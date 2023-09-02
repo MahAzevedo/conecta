@@ -32,7 +32,11 @@ const Formulario = () => {
                 <CampoTexto label="NOME" placeholder=" Daniel Maciel" />
                 <CampoTexto label="TELEFONE" placeholder="(21) 00000-0000" />
                 <CampoTexto label="E-MAIL" placeholder="email@email.com.br" />
+                {/*
+                    Encaixar o COMPONENTE ASSUNTO AQUI 
                 <CampoTexto label="ASSUNTO" placeholder="Selecione um Assunto" />
+                
+                */}
                 <CampoTexto label="MENSAGEM" placeholder="Escreva aqui sua mensagem" />
             </form>
         </section>
@@ -40,6 +44,9 @@ const Formulario = () => {
 }
 
 export default Formulario;
+
+// Falta encaixar o COMPONENTE ASSUNTO 
+
 
 // Tá muito grande esse formulario, a origem desse form está em contato
 // que eu incluí aqui pelo corpo do assunto, mas tá grande 
