@@ -5,7 +5,8 @@ import { Card } from './componentes/Card';
 import { Divulgacao } from './componentes/Divulgacao';
 import { Experimentar } from './componentes/Experimentar';
 import Contato from './componentes/Contato';
-import { Formulario } from './componentes/Formulario';
+/*import { Formulario } from './componentes/Formulario';*/
+import CampoTexto from './componentes/CampoTexto';
 
 
 function App() {
@@ -17,8 +18,15 @@ function App() {
       <Card />
       <Divulgacao />
       <Experimentar />
-      <Formulario />
       <Contato />
+      <CampoTexto label="NOME" />
+      <CampoTexto label="TELEFONE" />
+      <CampoTexto label="E-MAIL" />
+      <CampoTexto label="ASSUNTO" />
+      <CampoTexto label="MENSAGEM" />
+
+      {/*<Formulario /> */}
+
     </div>
   );
 }

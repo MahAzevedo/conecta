@@ -1,4 +1,5 @@
 import './Contato.css'
+import CampoTexto from '../CampoTexto/index';
 
 const Contato = () => {
     return (
@@ -24,6 +25,9 @@ const Contato = () => {
                         </p>
                     </li>
                 </ul>
+            </div>
+            <div>
+                {/* <CampoTexto />         {/* Será que fiz certo??*/} 
             </div>
         </section>
     )

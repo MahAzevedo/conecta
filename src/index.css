@@ -13,7 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   
 
-  background-color: lightgray; /* tirar depois */
+  background-color: rgb(40, 58, 75); /* tirar depois */
 }
 
 code {

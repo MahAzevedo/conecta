@@ -1,0 +1,33 @@
+.campo-texto {
+    margin: 24px;
+
+    
+}
+
+.campo-texto label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 12px;
+    color: #00EC5B;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.campo-texto input {
+    width: 100%; /* esse tamanho para se adaptar as telas */
+    height: 46px; /* tamanho do campo do input */
+    background-color: rgba(255, 255, 255, 0.20);
+    border-top: 1px solid #00EC5B;
+    border-right: 1px solid #00EC5B;
+    border-left: none;
+    border-bottom: none;
+    font-size: 16px;
+    padding-left: 19px;
+    box-sizing: border-box;
+    
+}
+.campo-texto ::placeholder {
+    color: #FFFFFF;
+}
+
