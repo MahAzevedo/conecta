@@ -1,0 +1,42 @@
+.rodape {
+    color: #FFF;
+    font-size: 12px;
+    opacity: 0.3;
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
+    /*line-height: normal;*/
+
+
+    margin: 0px 56px 0px 56px;
+    /* esse aqui pode ou não ficar, testar */
+    text-align: center;
+}
+
+.rodape-mensagem {}
+
+.rodape-texto {}
+
+
+/* FOOTER DA MARCA */
+
+.rodape-marca {}
+
+.rodape-texto1 {}
+
+/*
+.rodape-site {
+    background-image: url('/public/imagem/rodape.marca.png');
+    background-repeat: no-repeat;
+    max-width: 100%;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 375px) {
+    .rodape-site {
+        background-image: url('/public/imagem/rodape.marca.png');
+        background-repeat: no-repeat;
+        max-width: 100%;
+    }
+}
+
+*/

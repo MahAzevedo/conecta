@@ -1,4 +1,6 @@
+import Botao from '../Botao';
 import './Navegacao.css'
+/*import Botao from '../Botao';*/
 
 export const Navegacao = () => {
     return (
@@ -30,11 +32,15 @@ export const Navegacao = () => {
                         de duas linhas
                     </h1>
                 </div>
-                <botao className='nav-botao'>
+                {/*<botao className='nav-botao'>
                     <p className='nav-botao-texto'>
                         Aqui um CTA
                     </p>
-                </botao>
+                </botao>*/}
+                <Botao >
+                    Aqui um CTA
+                </Botao>
+                <Botao />
             </section>
         </header>
     );

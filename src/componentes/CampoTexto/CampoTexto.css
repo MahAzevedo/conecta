@@ -17,7 +17,7 @@
     /* esse tamanho para se adaptar as telas */
     height: 46px;
     /* tamanho do campo do input */
-    background-color: rgba(255, 255, 255, 0.20);
+    /* background-color: rgba(255, 255, 255, 0.20);      essa aqui é so para o primeiro*/
     border-top: 1px solid #00EC5B;
     border-right: 1px solid #00EC5B;
     border-left: none;
@@ -25,10 +25,11 @@
     font-size: 16px;
     padding-left: 19px;
     box-sizing: border-box;
-
+    background: #1B1F1C;
 }
 
 .campo-texto ::placeholder {
     color: #FFFFFF;
+    opacity: 0.5;
 }
 

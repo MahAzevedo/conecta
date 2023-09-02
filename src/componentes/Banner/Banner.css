@@ -3,8 +3,11 @@
     background-repeat: no-repeat;
     background-position: top;
     max-width: 100%;
-    margin: -16px 0px 0px 0px; /* falta 1px pro lado, olha lá */
-    text-align: center; /* centralizar o que estiver dentro desse banner, se não prestar, tira */
+    margin: -16px 0px 0px 0px;
+    /* falta 1px pro lado, olha lá */
+    text-align: center;
+    background-color: #1B1F1C;
+    height: 745px;
 }
 
 
@@ -17,7 +20,9 @@
         background-position: top;
         max-width: 100%;
         margin: -16px 0px 0px 0px;
-        text-align: center; /* centralizar o que estiver dentro desse banner, se não prestar, tira */
+        text-align: center;
+        background-color: #1B1F1C;
+        height: 745px;
     }
 }
 
@@ -28,7 +33,8 @@
         background-position: top;
         max-width: 100%;
         margin: -16px 0px 0px 0px;
-        text-align: center; /* centralizar o que estiver dentro desse banner, se não prestar, tira */
+        text-align: center;
+        background-color: #1B1F1C;
+        height: 745px;
     }
 }
-

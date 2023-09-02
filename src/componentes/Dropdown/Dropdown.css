@@ -1,0 +1,54 @@
+.dropdown {
+    margin: 24px;
+}
+
+
+.dropdown h4 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #00EC5B;
+} 
+
+.dropdown label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 12px;
+    color: #00EC5B;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*  NÃO TEM INPUT NESSE */
+
+.dropdown select {
+    width: 100%;
+    /* esse tamanho para se adaptar as telas */
+    height: 46px;
+    /* tamanho do campo do input */
+    /* background-color: rgba(255, 255, 255, 0.20);      essa aqui é so para o primeiro*/
+    border-top: 1px solid #00EC5B;
+    border-right: 1px solid #00EC5B;
+    border-left: none;
+    border-bottom: none;
+    font-size: 16px;
+    padding-left: 19px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    opacity: 0.5;
+    background: #1B1F1C;
+}
+
+.dropdown ::placeholder {
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.dropdown input {  /*  Não tá funcionando pq ainda não existe  */
+    border-top: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    border-left: none;
+    border-bottom: none;
+}

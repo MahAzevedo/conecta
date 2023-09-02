@@ -1,3 +1,4 @@
+import Botao from '../Botao';
 import './Experimentar.css'
 
 export const Experimentar = () => {
@@ -13,12 +14,13 @@ export const Experimentar = () => {
                 <p className='experimentar-texto'>
                     Quer experimentar?
                 </p>
-                <button className='experimentar-botao'>
-                    <p className='experimentar-texto-botao'>
-                        Aqui um CTA
-                    </p>
-                </button>
+                <Botao>
+                    Aqui um CTA
+                </Botao>
             </div>
         </section>
     );
 }
+
+// Botao aqui é COMPONENTE, por isso é ***VERDE*** tudo que estiver entre 
+// ele aparece na tela, como em um botao html

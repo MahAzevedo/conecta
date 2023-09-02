@@ -1,8 +1,16 @@
 import './Formulario.css'
 
 import CampoTexto from '../CampoTexto/index';
+import Dropdown from '../Dropdown';
+import Rodape from '../Rodape';
 
 const Formulario = () => {
+
+    const dropdown = [
+        'Aplicativo',
+        'Sistema'
+    ]
+
     return (   
         <section className='formulario'>
             <form>
@@ -32,12 +40,14 @@ const Formulario = () => {
                 <CampoTexto label="NOME" placeholder=" Daniel Maciel" />
                 <CampoTexto label="TELEFONE" placeholder="(21) 00000-0000" />
                 <CampoTexto label="E-MAIL" placeholder="email@email.com.br" />
+                <Dropdown label={Dropdown} itens={dropdown}/>
                 {/*
                     Encaixar o COMPONENTE ASSUNTO AQUI 
                 <CampoTexto label="ASSUNTO" placeholder="Selecione um Assunto" />
                 
                 */}
                 <CampoTexto label="MENSAGEM" placeholder="Escreva aqui sua mensagem" />
+                <Rodape />
             </form>
         </section>
     )
@@ -55,3 +65,7 @@ export default Formulario;
 // colocar opacidade e tirar o espaço à esquerda de: telefone até mensagem
 // expandir o campo da mensagem
 // tirar o verde das outras propriedades, a cor deve ser branca #FFFFFF
+
+// no CAMPO-TEXTO só o PRIMEIRO É CLARO com LETRA BRANCA OPACA, o RESTANTE é escuro 
+
+// no CAMPO 

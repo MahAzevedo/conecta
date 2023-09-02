@@ -6,6 +6,7 @@ import { Divulgacao } from './componentes/Divulgacao';
 import { Experimentar } from './componentes/Experimentar';
 import Contato from './componentes/Contato';
 import Formulario from './componentes/Formulario';
+import Rodape from './componentes/Rodape';
 
 /*import CampoTexto from './componentes/CampoTexto';*/
 
@@ -20,6 +21,7 @@ function App() {
       <Experimentar />
       {/*    <Contato />              Não preciso mais */} 
       <Formulario />
+      {/*<Rodape               Não preciso mais />*/}
     </div>
   );
 }
