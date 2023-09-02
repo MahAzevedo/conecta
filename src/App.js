@@ -5,31 +5,21 @@ import { Card } from './componentes/Card';
 import { Divulgacao } from './componentes/Divulgacao';
 import { Experimentar } from './componentes/Experimentar';
 import Contato from './componentes/Contato';
-/*import { Formulario } from './componentes/Formulario';*/
-import CampoTexto from './componentes/CampoTexto';
+import Formulario from './componentes/Formulario';
+
+/*import CampoTexto from './componentes/CampoTexto';*/
 
 
 function App() {
   return (
     <div className="App">
-      <Banner />
-      {/* <Navegacao />*/}
+      <Banner />   {/* <Navegacao />    tá dentro do Banner */}
       <Produto />
       <Card />
       <Divulgacao />
       <Experimentar />
-      <Contato />
-      {/*<CampoTexto />*/}
-      {/*
-         <CampoTexto label="NOME" placeholder=" Daniel Maciel" /> 
-                <CampoTexto label="TELEFONE" placeholder="(21) 00000-0000" />
-                <CampoTexto label="E-MAIL" placeholder="email@email.com.br" />
-                <CampoTexto label="ASSUNTO" placeholder="Selecione um Assunto" />
-                <CampoTexto label="MENSAGEM" placeholder="Escreva aqui sua mensagem" />
-      */}
-
-      {/*<Formulario /> */}
-
+      {/*    <Contato />              Não preciso mais */} 
+      <Formulario />
     </div>
   );
 }
