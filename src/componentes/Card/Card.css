@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
 
-/*.card-container {
-    padding-top: 33px;
-}*/
-
-.card-ul {
-    padding-bottom: 50px;
+.card-container {
+    /*padding-top: 0px; /* 33px */
+    padding-bottom: 46px;
 }
+
+.card-ul {}
 
 .card-shape-produto {
     box-shadow: 0px 8px 24px -4px rgba(0, 0, 0, 0.25);
@@ -100,16 +99,16 @@
     .card-container {
         margin-top: -52px;
     }
-    
+
     .card-ul {
         display: flex;
         flex-direction: row;
     }
-    
+
     .card-shape-produto {
         /*margin-left: 0px;*/
         height: 425px;
-    
+
         box-shadow: 0px 8px 24px -4px rgba(0, 0, 0, 0.25);
         border-radius: 16px;
         width: 250px;
@@ -120,7 +119,7 @@
         /*28px;*/
         list-style: none;
     }
-    
+
     .card-shape-produto-lata {
         height: 425px;
         box-shadow: 0px 8px 24px -4px rgba(0, 0, 0, 0.25);
@@ -130,12 +129,12 @@
         margin: 66px -11px;
         list-style: none;
     }
-    
+
     .card-texto {
         display: flex;
         flex-direction: column;
     }
-    
+
     .card-titulo {
         color: #101213;
         font-family: Artigo;
@@ -145,7 +144,7 @@
         line-height: normal;
         margin: 24px 23px 23px 17px;
     }
-    
+
     .card-paragrafo {
         color: #0E0E0E;
         font-family: Artigo;
@@ -155,7 +154,7 @@
         /* margin: -8px 0px 0px 5px; */
         /* escolher entre esses dois ou os de cima */
     }
-    
+
     .card-botao {
         /* background: var(--verde, #00EC5B); fazer um root de cor */
         background-color: #00EC5B;
@@ -169,17 +168,19 @@
         height: 56px;
         text-align: center;
     }
-    
+
     .card-botao-texto {
         font-size: 14px;
         font-style: normal;
         padding: 4px;
         text-align: center;
     }
-    
+
     .produto {
         padding: 33px 0px 17px 26px;
-    } /* a lata tá com essa div produto, a garrafa não */
+    }
+
+    /* a lata tá com essa div produto, a garrafa não */
 
 }
 

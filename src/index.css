@@ -2,14 +2,20 @@
   --branco: #FFFFFF;
   --preto: #000000;
   --verde: #00EC5B;
+
+  /* Adicionar no root, mas já tá no projeto
+
+  font-family: 'Inter', sans-serif;
+  font-family: 'Merriweather', serif; 
+  */
 }
 
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif, 'Merriweather', serif;
-
+    sans-serif, 'Merriweather', serif, 'Inter', sans-serif;
+    
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
@@ -17,7 +23,7 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace, 'Merriweather', serif;
+    monospace, 'Merriweather', 'Inter', serif;
 }
 
 a {
