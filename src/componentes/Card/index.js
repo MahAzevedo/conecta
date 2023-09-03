@@ -4,7 +4,7 @@ export const Card = () => {
     return (
         <main className='card-container'>
             <section className='card-section'>
-                <ul>
+                <ul className='card-ul'>
                     <li className='card-shape-produto'>
                         <div>
                             <img src="/imagem/garrafa.guaraná 1.png" alt="Garrafa de guaraná 350ml" />

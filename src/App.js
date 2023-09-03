@@ -18,7 +18,7 @@ function App() {
       <Banner />   {/* <Navegacao />    tá dentro do Banner */}
       <Logo />
       <Produto />
-      <Card />
+      {/*<Card />    nao precisa + ta   dentro de produto */}
       <Divulgacao />
       <Experimentar />
       {/*    <Contato />              Não preciso mais */} 

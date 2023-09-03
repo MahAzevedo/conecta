@@ -17,8 +17,10 @@
     color: #0E0E0E;
     font-family: Artigo;
     font-size: 16px;
-    margin: -19px 47px 0px 23px;
-    padding-left: 47px;
+    text-align: center;
+    width: 253px;
+    font-weight: 400;
+    margin: -18px 0px 0px 59px;
 }
 
 
@@ -49,7 +51,6 @@
 
     .produto-titulo {
         font-weight: 800;
-        padding-left: 47px;
         text-align: center;
     }
 
