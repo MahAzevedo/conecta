@@ -9,7 +9,7 @@ const Produto = () => {
                 </h4>
                 <p className='produto-paragrafo'>
                     Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit. Mauris
+                    consectetur adipiscing elit. Mauris <br/>
                     semper, tortor sed vehicula.
                 </p>
             </div>

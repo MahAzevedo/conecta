@@ -29,4 +29,35 @@
     /*padding-left: 47px;*/
 }
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    .produto-section {
+        width: 458px;
+        text-align: center;
+        color: #0E0E0E;
+text-align: center;
+font-family: Artigo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    
+    .produto-paragrafo {
+        color: #0E0E0E;
+        font-family: Artigo;
+        font-size: 16px;
+        padding: 0px 0px 0px 47px;
+        margin: -13px 63px 12px 25px;
+        /*text-align: center;*/
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*padding-left: 47px;*/
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .produto-section {
+        width: 458px;
+        text-align: center;
+    }
+}
