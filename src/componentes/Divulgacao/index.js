@@ -4,10 +4,11 @@ export const Divulgacao = () => {
     return (
         <section className='section-divulgacao'>
             <ul className='imagens-divulgacao'>
+
                 <li className='imagem'>
                     <div className='imagem-1'>
-                        <img src='/imagem/375.festa.png' alt='Festa de divulgacao' />
-                    </div>
+                    </div>{/*<img src='/imagem/375.festa.png' alt='Festa de divulgacao' />
+                    </div>*/}
                 </li>
                 <li className='imagem-2-carrossel'>
                     <p className='carrossel-comentarios-1'>“Lorem ipsum dolor sit amet,
