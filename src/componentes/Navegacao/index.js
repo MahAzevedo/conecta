@@ -1,5 +1,6 @@
 import { styled } from 'styled-components';
 import Botao from '../Botao';
+import Logo from '../Logo';
 
 import './Navegacao.css'
 
@@ -12,8 +13,9 @@ export const Navegacao = () => {
     return (
         <header className="nav-bar">
             <nav className='nav'>
-                <div>
-                    <img src="/imagem/marca.conecta.03 1.png" alt="Logo Conecta" />
+                <div className='nav-logo-conecta'>
+                <Logo />
+                    {/*<img src="/imagem/marca.conecta.03 1.png" alt="Logo Conecta" />*/}
                 </div>
                 <ul className='nav-ul'>
                     <li>
@@ -30,13 +32,13 @@ export const Navegacao = () => {
             </nav>
 
             <section className='nav-produto'>
-                <div className='nav-lata-banner'>
+                <div className='nav-lata-banner-img'>
                     {/* aqui ficava a imagem 375*/}
                 </div>
-                <div > {/*className='nav-titulo'*/}
+                <div>
                     <h1 className='nav-titulo'>
-                        Aqui um título <br />
-                        de duas linhas
+                        Aqui um título de <br/>
+                        duas linhas
                     </h1>
                 </div>
                 <button className='nav-botao'>

@@ -10,13 +10,30 @@
     list-style: none;*/
 }
 
+.nav-logo-conecta {
+    background-image: url('/public/imagem/Grupo38.png');
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width: 134px;
+    height: 51px;
+    /*margin: 24px 39px 11px 15px; */
+    /* padding: 11px 12px 2px 26px; */
+    padding-top: 24px;
+    padding-left: 15px;
+    color: #FFFFFF;
+}
+
 .nav-ul {
     display: flex;
     text-align: center;
-    /*margin: 15px 69px;*/
+    /*margin: 30px 124px;*/
     gap: 26px;
-    padding: 0px 123px;
+    /*padding: 15px 152px;*/
     list-style: none;
+    /*padding-top: 15px; */
+    /*padding-left: 100px;*/
+    margin-top: 26px;
+    margin-left: 63px;
 }
 
 .nav-produto {
@@ -27,7 +44,7 @@
     color: #FFFFFF;
 }
 
-.nav-lata-banner {
+.nav-lata-banner-img {
     background-image: url('/public/imagem/375.header.lata.guaraná\ 1.png');
     background-repeat: no-repeat;
     max-width: 100%;
@@ -37,10 +54,12 @@
 
 .nav-titulo {
     font-family: Artigo;
-    font-size: 33px;
+    font-size: 38px;
     line-height: 120%;
     max-width: 100%;
-    /*padding: 0px 123px 0px 0px;*/
+    text-align: center;
+    font-weight: 700;
+    line-height: 120%;
 }
 
 .nav-botao {
@@ -63,6 +82,7 @@
 }
 
 @media screen and (min-width: 768px) {
+
     .nav-bar {
         padding: 14px 0px 0px 20px;
     }
@@ -75,13 +95,26 @@
         padding: 0px 7px 0px 0px;
     }
 
-    .nav-lata-banner {
+    .nav-lata-banner-img {
         background-image: url('/public/imagem/768.lata-guaraná\ 1.png');
         background-repeat: no-repeat;
         height: 530px;
         width: 250px;
         margin-top: 3rem;
         margin-left: 18rem;
+    }
+
+    .nav-logo-conecta {
+        background-image: url('/public/imagem/Grupo38.png');
+        background-repeat: no-repeat;
+        max-width: 100%;
+        width: 134px;
+        height: 51px;
+        /*margin: 24px 39px 11px 15px; */
+        /* padding: 11px 12px 2px 26px; */
+        padding-top: 24px;
+        padding-left: 15px;
+        color: #FFFFFF;
     }
 
     .nav-titulo {
@@ -107,49 +140,24 @@
         cursor: pointer;
         width: 188px;
         height: 56px;
-        margin: -13.5rem 35rem 0rem 2rem;
+        margin: -13.5rem 35rem 0rem 3rem;
     }
 
-    /*.nav-botao-texto {  pq o botao ta em componente e eu ainda nao arrumei
+    .nav-botao-texto {
         font-size: 14px;
         font-style: normal;
         padding: 4px;
         text-align: center;
-    }*/
+        color: #101213;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    /*  o botao ta em componente e eu ainda nao arrumei*/
 }
 
 
 @media screen and (min-width: 1440px) {
-    /*.nav-bar {
-        /*margin: 16px 30px;
-    }*/
-
-    /*.nav {
-        justify-content: space-between;
-    }*/
-
-    /*.nav-ul {
-        padding: 0px 7px 0px 0px;
-    }*/
-
-    /*.nav-produto {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        color: #FFFFFF;
-    }*/
-
-    /*.nav-titulo {
-        margin: -24rem 23rem -1rem -3rem;
-        line-height: 55px;
-    }*/
-
-    /* .nav-lata-banner {
-        
-        background-repeat: no-repeat;
-        max-width: 100%;
-    }*/
 
     .nav-titulo {
         margin: -23rem 46rem 0rem 0rem;
@@ -164,15 +172,28 @@
         letter-spacing: 4px;
     }
 
-    .nav-lata-banner {
+    .nav-lata-banner-img {
         background-image: url('/public/imagem/1440.header.lata.guaraná 1.png');
         background-repeat: no-repeat;
         height: 530px;
         width: 250px;
-        margin-top: 3rem;
-        margin-left: 35rem;
+        margin-top: 0rem;
+        margin-left: 30rem;
     }
 
+    .nav-logo-conecta {
+        background-image: url('/public/imagem/Grupo38.png');
+        background-repeat: no-repeat;
+        max-width: 100%;
+        width: 134px;
+        height: 51px;
+        /*margin: 24px 39px 11px 15px; */
+        /* padding: 11px 12px 2px 26px; */
+        padding-top: 24px;
+        padding-left: 15px;
+        color: #FFFFFF;
+    }
+    
     .nav-botao {
         background-color: #00EC5B;
         color: #101213;
@@ -183,13 +204,7 @@
         cursor: pointer;
         width: 188px;
         height: 56px;
-        margin-right: 60rem;
+        margin-right: 63rem;
+        margin-top: -12.0rem;
     }
-
-    /*.nav-botao-texto {  pq o botao ta em componente e eu ainda nao arrumei
-        font-size: 14px;
-        font-style: normal;
-        padding: 4px;
-        text-align: center;
-    }*/
 }

@@ -7,6 +7,7 @@ import { Experimentar } from './componentes/Experimentar';
 import Contato from './componentes/Contato';
 import Formulario from './componentes/Formulario';
 import Rodape from './componentes/Rodape';
+import Logo from './componentes/Logo';
 
 /*import CampoTexto from './componentes/CampoTexto';*/
 
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <Banner />   {/* <Navegacao />    tá dentro do Banner */}
+      <Logo />
       <Produto />
       <Card />
       <Divulgacao />
