@@ -30,9 +30,8 @@ export const Navegacao = () => {
             </nav>
 
             <section className='nav-produto'>
-                <figure></figure>
                 <div className='nav-lata-banner'>
-                    <img src='/imagem/375.header.lata.guaraná 1.png' alt='Lata de refrigerante'/>
+                    {/* aqui ficava a imagem 375 */}
                 </div>
                 <div className='nav-titulo'>
                     <h1>Aqui um título <br />
