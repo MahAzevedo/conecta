@@ -1,10 +1,25 @@
 .experimentar {}
 
 .experimentar-verde {
+    width: 374px;
+    height: 370px;
+    background-image: url('/public/imagem/375.verde.Retângulo\ 9.png');
+    background-repeat: no-repeat;
+
     margin-top: 88px;
 }
 
+
 .experimentar-img {
+    background-image: url('/public/imagem/375.lata.guaraná.4.png');
+    background-repeat: no-repeat;
+
+    /*width: 134px;
+    height: 51px;*/
+
+    width: 149.267px;
+    height: 262.174px;
+
     text-align: center;
     margin-top: -446px;
     /*position: relative;*/
@@ -22,4 +37,3 @@
     margin-top: -17px;
     margin-bottom: -18px;
 }
-

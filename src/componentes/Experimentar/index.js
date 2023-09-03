@@ -6,10 +6,10 @@ export const Experimentar = () => {
         <section className='section-experimentar'>
             <div className='experimentar'>
                 <div className='experimentar-verde'>
-                    <img src='/imagem/375.verde.Retângulo 9.png' alt='Imagem verde' />
+                    {/*<img src='/imagem/375.verde.Retângulo 9.png' alt='Imagem verde' />*/}
                 </div>
                 <div className='experimentar-img'>
-                    <img src='/imagem/375.lata.guaraná.4.png' alt='Quer experimentar?' />
+                    {/*<img src='/imagem/375.lata.guaraná.4.png' alt='Quer experimentar?' />*/}
                 </div>
                 <p className='experimentar-texto'>
                     Quer experimentar?
