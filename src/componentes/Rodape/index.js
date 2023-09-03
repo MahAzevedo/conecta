@@ -9,9 +9,9 @@ const Rodape = () => {
 
             <div className='rodape-marca'>
                 <p className='rodape-texto1'>PROJETADO POR</p>
-                <a className='rodape-site' href='https://www.conectaai.com/'>
+                {/*<a className='rodape-site' href='https://www.conectaai.com/'>
                     <img src='/public/imagem/Grupo38.png' alt='Logo da CONECTA.'/>
-                </a>
+                </a>*/}
             </div>
         </footer>
     );

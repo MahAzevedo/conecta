@@ -16,11 +16,11 @@ export const Card = () => {
                             </h4>
                             <Tipografia className='card-paragrafo'>
                                 Lorem ipsum dolor sit amet
-                            </Tipografia> 
+                            </Tipografia>
                             <Botao className='card-botao'>
                                 <Tipografia className='card-botao-texto'>
                                     Aqui um CTA
-                                </Tipografia> 
+                                </Tipografia>
                             </Botao>
                         </div>
                     </li>
