@@ -1,7 +1,7 @@
 import './Dropdown.css'
 
 const Dropdown = (props) => {
-    console.log(props.itens)
+    // console.log(props.itens)
 
     return (
         <div className='dropdown'>

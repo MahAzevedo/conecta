@@ -1,9 +1,9 @@
 // import './Botao.css'
 
-export const Tipografia = (props) => {
+export const Tipografia = ({children, className}) => {
     return(
-        <p className={props.className}>
-            {props.children}
+        <p className={className}>
+            {children}
         </p>
     );
 }

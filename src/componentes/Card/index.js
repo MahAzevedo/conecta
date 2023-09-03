@@ -33,9 +33,9 @@ export const Card = () => {
                                 Garrafa 350ml
                             </h4>
 
-                            <p className='card-paragrafo'>
+                            <Tipografia className='card-paragrafo'>
                                 Lorem ipsum dolor sit amet
-                            </p>
+                            </Tipografia>
                             <Botao className='card-botao'>
                                 <Tipografia className='card-botao-texto'>
                                     Aqui um CTA
