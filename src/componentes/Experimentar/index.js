@@ -1,4 +1,4 @@
-import Botao from '../Botao';
+import { Botao } from '../Botao';
 import './Experimentar.css'
 
 export const Experimentar = () => {
