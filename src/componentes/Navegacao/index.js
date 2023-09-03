@@ -31,10 +31,11 @@ export const Navegacao = () => {
 
             <section className='nav-produto'>
                 <div className='nav-lata-banner'>
-                    {/* aqui ficava a imagem 375 */}
+                    {/* aqui ficava a imagem 375*/}
                 </div>
-                <div className='nav-titulo'>
-                    <h1>Aqui um título <br />
+                <div > {/*className='nav-titulo'*/}
+                    <h1 className='nav-titulo'>
+                        Aqui um título <br />
                         de duas linhas
                     </h1>
                 </div>

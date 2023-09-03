@@ -80,8 +80,21 @@
         background-repeat: no-repeat;
         height: 530px;
         width: 250px;
-        margin-right: 10rem;
-        
+        margin-top: 3rem;
+        margin-left: 18rem;
+    }
+
+    .nav-titulo {
+        margin: -22rem 24rem 0rem -2rem;
+        line-height: 55px;
+        color: #FFF;
+        font-family: Artigo;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        width: 333px;
+        height: 111px;
     }
 
     .nav-botao {
@@ -92,27 +105,91 @@
         font-size: 14px;
         border: none;
         cursor: pointer;
-        margin: 0px 92px 0px -35px;
-        width: 327px;
+        width: 188px;
         height: 56px;
+        margin: -13.5rem 35rem 0rem 2rem;
     }
 
-    .nav-botao-texto {
+    /*.nav-botao-texto {  pq o botao ta em componente e eu ainda nao arrumei
         font-size: 14px;
         font-style: normal;
         padding: 4px;
         text-align: center;
-    }
+    }*/
 }
 
+
 @media screen and (min-width: 1440px) {
-    .nav-bar {
-        margin: 16px 30px;
+    /*.nav-bar {
+        /*margin: 16px 30px;
+    }*/
+
+    /*.nav {
+        justify-content: space-between;
+    }*/
+
+    /*.nav-ul {
+        padding: 0px 7px 0px 0px;
+    }*/
+
+    /*.nav-produto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }*/
+
+    /*.nav-titulo {
+        margin: -24rem 23rem -1rem -3rem;
+        line-height: 55px;
+    }*/
+
+    /* .nav-lata-banner {
+        
+        background-repeat: no-repeat;
+        max-width: 100%;
+    }*/
+
+    .nav-titulo {
+        margin: -23rem 46rem 0rem 0rem;
+        color: #FFF;
+        font-family: Artigo;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        width: 458px;
+        height: 150px;
+        letter-spacing: 4px;
     }
 
     .nav-lata-banner {
         background-image: url('/public/imagem/1440.header.lata.guaraná 1.png');
         background-repeat: no-repeat;
-        max-width: 100%;
+        height: 530px;
+        width: 250px;
+        margin-top: 3rem;
+        margin-left: 35rem;
     }
+
+    .nav-botao {
+        background-color: #00EC5B;
+        color: #101213;
+        border-radius: 50px;
+        font-weight: 500;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        width: 188px;
+        height: 56px;
+        margin-right: 60rem;
+    }
+
+    /*.nav-botao-texto {  pq o botao ta em componente e eu ainda nao arrumei
+        font-size: 14px;
+        font-style: normal;
+        padding: 4px;
+        text-align: center;
+    }*/
 }
