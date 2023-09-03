@@ -1,11 +1,7 @@
 .produto-section {
     width: 375px;
+    margin-top: 8px;
     text-align: center;
-}
-
-.produto-texto {
-    display: flex;
-    flex-direction: column;
 }
 
 .produto-titulo {
@@ -21,45 +17,50 @@
     color: #0E0E0E;
     font-family: Artigo;
     font-size: 16px;
-    padding: 0px 0px 0px 47px;
-    margin: -13px 63px 12px 25px;
-    /*text-align: center;*/
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*padding-left: 47px;*/
+    margin: -19px 47px 0px 23px;
+    padding-left: 47px;
 }
+
+
 
 @media screen and (min-width: 768px) {
     .produto-section {
         width: 458px;
-        font-weight: 800;
+        font-weight: 400;
         margin: auto;
         letter-spacing: 1px;
-        /* text-align: center; */
-        /* color: #0E0E0E; */
-        /* text-align: center; */
-        /* font-family: Artigo; */
-        /* font-size: 24px; */
-        /* font-style: normal; */
-        /* line-height: normal; */
+        padding-top: 16px;
+    }
+
+    .produto-texto {
+        text-align: center;
     }
 
     .produto-paragrafo {
         color: #0E0E0E;
         font-family: Artigo;
         font-size: 16px;
-        padding: 0px 0px 0px 47px;
-        margin: -13px 63px 12px 25px;
-        /*text-align: center;*/
-        /*display: flex;*/
-        /*flex-direction: column;*/
-        /*padding-left: 47px;*/
+        padding: 0px;
+        width: 470px;
+        text-align: center;
+        font-weight: 400;
+        margin: -11px 0px 0px 0px;
     }
 
-    /*.produto-texto {
-        display: flex;
-        flex-direction: column;
-    }*/
+    .produto-titulo {
+        font-weight: 800;
+        padding-left: 47px;
+        text-align: center;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1440px) {
+    .produto-section {
+        margin-top: 8px;
+    }
 
     .produto-titulo {
         color: #101213;
@@ -69,29 +70,11 @@
         font-weight: 800;
         line-height: normal;
     }
-    
+
     .produto-paragrafo {
         color: #0E0E0E;
         font-family: Artigo;
         font-size: 16px;
-        padding: 0px 0px 0px 47px;
         margin: -13px 63px 12px 25px;
-        /*text-align: center;*/
-        /*display: flex;*/
-        /*flex-direction: column;*/
-        /*padding-left: 47px;*/
-    }
-    
-}
-
-@media screen and (min-width: 1440px) {
-    /*.produto-section {
-        width: 458px;
-        text-align: center;
-    }*/
-
-    .produto-texto {
-        display: flex;
-        flex-direction: column;
     }
 }

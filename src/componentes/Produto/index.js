@@ -1,3 +1,4 @@
+import { Card } from '../Card';
 import './Produto.css'
 
 const Produto = () => {
@@ -8,11 +9,11 @@ const Produto = () => {
                     Produtos
                 </h4>
                 <p className='produto-paragrafo'>
-                    Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit. Mauris <br/>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris <br/>
                     semper, tortor sed vehicula.
                 </p>
             </div>
+            <Card />
         </section>
     );
 }
