@@ -11,29 +11,21 @@
 }
 
 .nav-logo-conecta {
-    background-image: url('/public/imagem/Grupo38.png');
+    background-image: url('/public/imagem/375.banner.marca.conecta.png');
     background-repeat: no-repeat;
-    max-width: 100%;
+    background-position: top;
     width: 134px;
     height: 51px;
-    /*margin: 24px 39px 11px 15px; */
-    /* padding: 11px 12px 2px 26px; */
-    padding-top: 24px;
-    padding-left: 15px;
-    color: #FFFFFF;
+    margin-top: 16px;
 }
 
 .nav-ul {
     display: flex;
     text-align: center;
-    /*margin: 30px 124px;*/
     gap: 26px;
-    /*padding: 15px 152px;*/
     list-style: none;
-    /*padding-top: 15px; */
-    /*padding-left: 100px;*/
-    margin-top: 26px;
-    margin-left: 63px;
+    padding: 4px 0px 0px 62px;
+    margin: 28px 0px 2px 56px;
 }
 
 .nav-produto {

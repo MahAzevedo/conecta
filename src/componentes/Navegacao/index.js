@@ -1,22 +1,12 @@
-import { styled } from 'styled-components';
-import Botao from '../Botao';
-import Logo from '../Logo';
-
 import './Navegacao.css'
-
-/*
-const BotaoVerde = styled.Botao`
-    background-color: #00EC5B; `
-*/
 
 export const Navegacao = () => {
     return (
         <header className="nav-bar">
             <nav className='nav'>
-                <div className='nav-logo-conecta'>
-                <Logo />
-                    {/*<img src="/imagem/marca.conecta.03 1.png" alt="Logo Conecta" />*/}
-                </div>
+                    <div className='nav-logo-conecta'>
+                        {/*<img src='public/imagem/Grupo38.png' alt='Logo CONECTA.' />*/}
+                    </div>
                 <ul className='nav-ul'>
                     <li>
                         <a href="facebook.com" target="_blank">
