@@ -17,7 +17,7 @@ export const Card = () => {
                             <Tipografia className='card-paragrafo'>
                                 Lorem ipsum dolor sit amet
                             </Tipografia>
-                            <Botao className='card-botao'>
+                            <Botao className='card-botao botao-verde'>
                                 <Tipografia className='card-botao-texto'>
                                     Aqui um CTA
                                 </Tipografia>
@@ -36,7 +36,7 @@ export const Card = () => {
                             <Tipografia className='card-paragrafo'>
                                 Lorem ipsum dolor sit amet
                             </Tipografia>
-                            <Botao className='card-botao'>
+                            <Botao className='card-botao botao-verde'>
                                 <Tipografia className='card-botao-texto'>
                                     Aqui um CTA
                                 </Tipografia> 

@@ -1,31 +1,31 @@
 .section-divulgacao {
     width: 326px;
     margin-left: 25px;
-    list-style: none;
     display: block;
     margin: 10px 0px 0px -15px;
-
     height: 520px;
 }
 
-.imagens-divulgacao {
-    display: flex;
-}
+.imagens-divulgacao {}
 
 .divulgacao-comentarios {}
 
 .imagem {}
 
-.imagem-1 {}
+.imagem-1 {
+    background-image: url('/public/imagem/375.festa.png');
+    background-repeat: no-repeat;
+    width: 327px;
+    height: 520px;
+}
 
 .imagem-2-carrossel {
-    /*position: relative;*/
     display: block;
     width: 326px;
     height: 288px;
     background-color: #1B1F1C;
     color: #FFFFFF;
-    margin-top: -20px;
+    padding: 1px 0px 176px 1px;
 }
 
 .carrossel-comentarios-1 {
@@ -50,7 +50,9 @@
 }
 
 .imagem-3 {
-    width: 327px;
+    background-image: url('/public/imagem/375.barman.png');
+    background-repeat: no-repeat;
+    width: 326px;
     height: 288px;
     opacity: 0.9;
 }
@@ -65,24 +67,8 @@
     margin: -174px 0px 0px 71px;
     width: 326px;
     height: 288px;
-
+    padding-top: 122px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -122,33 +108,20 @@
         height: 408px;
     }
 
-
-
-/*     IMAGEM-1 TÁ QUEBRADA!!!    */
-
-
-
     .imagem-1 {
+        background-image: url('/public/imagem/768.festa.divulgacao.png');
+        background-repeat: no-repeat;
+        max-width: 100%;
         width: 362px;
         height: 829px;
-        /*background-image: url('public/imagem/768.festa.divulgacao.png');
-        background-repeat: no-repeat;*/
-
-        background: url('public/imagem/768.festa.divulgacao.png'), lightgray 50% / cover no-repeat;
     }
 
-
-
-
-
     .imagem-2-carrossel {
-        /*position: relative;*/
         display: block;
-        width: 326px;
-        height: 288px;
         background-color: #1B1F1C;
-        color: #FFFFFF;
-        margin-top: -20px;
+        width: 358px;
+        height: 408px;
+        margin-top: -16px;
     }
 
     .carrossel-comentarios-1 {
@@ -173,8 +146,11 @@
     }
 
     .imagem-3 {
-        width: 327px;
-        height: 288px;
+        background-image: url('/public/imagem/768.barman.png');
+        background-repeat: no-repeat;
+        width: 358px;
+        height: 422px;
+        margin-top: 174px;
         opacity: 0.9;
     }
 
@@ -191,32 +167,43 @@
 
     }
 
+
 }
 
 
 
 
+/*@media screen and (min-width: 1440px) {
+    .imagem-1 { 
+        background-image: url('/public/imagem/1440.festa.png');
+        background-repeat: no-repeat;
+        width: 566px;
+        height: 811px;
+    }
+
+    .divulgacao-ld {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .imagem-2-carrossel {
+        width: 358px;
+        height: 408px;
+        position: top;
+
+        margin: 2px 0px -1px 0px;
+
+         atencao aqui 
+    }
+
+    .imagem-3 {
+        background-image: url('/public/imagem/1440.barman.png');
+        background-repeat: no-repeat;
+
+        width: 570px;
+        height: 404px;
+    }
+}*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 1440px) {}

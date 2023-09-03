@@ -12,3 +12,17 @@
     color: #FFFFFF;
     letter-spacing: 0.5px;
 }
+
+.botao-verde {
+    background-color: #00EC5B;
+    color: #101213;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    width: 185px;
+    height: 56px;
+    margin: 0px 0px -34px 0px;
+    margin-left: 12px;
+}

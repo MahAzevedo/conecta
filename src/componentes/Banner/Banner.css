@@ -9,9 +9,6 @@
     height: 745px;
 }
 
-
-
-
 @media screen and (min-width: 768px) {
     .banner {
         background-image: url('/public/imagem/768.background.img.png');
