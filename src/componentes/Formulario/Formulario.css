@@ -4,17 +4,13 @@
 
 .formulario form {}
 
-.formulario h5 {
-    /* .formulario-titulo {} */
+.formulario-titulo { 
     color: #FFF;
     font-family: Artigo;
     font-size: 41px;
     text-align: center;
     margin-top: 89px;
     padding-top: 73px;
-    /*font-style: normal;
-    font-weight: 700;
-    line-height: normal;*/
 }
 
 .formulario-redes__sociais {
@@ -23,13 +19,14 @@
     align-items: center;
     margin-top: -56px;
     margin-left: 47px;
+    padding-bottom: 25px;
 }
 
 .formulario-links {
-    /* display: flex;*/
     margin: 6px 3px 0px 4px;
 }
 
 .formulario-texto {
     color: #FFF;
 }
+

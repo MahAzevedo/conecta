@@ -15,7 +15,7 @@ const Formulario = () => {
         <section className='formulario'>
             <form>
                 <div className='formulario-container'>
-                    <h5 className='formulario-titulo'> {/*'Não precisaria + desse título*/}
+                    <h5 className='formulario-titulo'> 
                         Fale Conosco.
                     </h5>
                     <ul className='formulario-redes__sociais'>
@@ -37,16 +37,11 @@ const Formulario = () => {
                     </ul>
                 </div>
 
-                <CampoTexto label="NOME" placeholder=" Daniel Maciel" />
-                <CampoTexto label="TELEFONE" placeholder="(21) 00000-0000" />
-                <CampoTexto label="E-MAIL" placeholder="email@email.com.br" />
-                <Dropdown label={Dropdown} itens={dropdown}/>
-                {/*
-                    Encaixar o COMPONENTE ASSUNTO AQUI 
-                <CampoTexto label="ASSUNTO" placeholder="Selecione um Assunto" />
-                
-                */}
-                <CampoTexto label="MENSAGEM" placeholder="Escreva aqui sua mensagem" />
+                <CampoTexto label="NOME" placeHolder=" Daniel Maciel" obrigatorio={true} />
+                <CampoTexto label="TELEFONE" placeHolder="(21) 00000-0000" obrigatorio={true} />
+                <CampoTexto label="E-MAIL" placeHolder="email@email.com.br" obrigatorio={true} />
+                <Dropdown label={Dropdown} itens={dropdown} />
+                <CampoTexto label="MENSAGEM" placeHolder="Escreva aqui sua mensagem" />
                 <Rodape />
             </form>
         </section>

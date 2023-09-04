@@ -3,7 +3,13 @@
     margin-left: 25px;
     display: block;
     margin: 10px 0px 0px -15px;
-    height: 520px;
+    height: 402px;
+}
+
+.section-container {}
+
+.divulgacao-ld {
+    margin: 1px 1px 1px 1px;
 }
 
 .imagens-divulgacao {}
@@ -17,20 +23,21 @@
     background-repeat: no-repeat;
     width: 327px;
     height: 520px;
+    margin-bottom: -1px;
 }
 
 .imagem-2-carrossel {
     display: block;
-    width: 326px;
+    width: 327px;
     height: 288px;
     background-color: #1B1F1C;
     color: #FFFFFF;
-    padding: 1px 0px 176px 1px;
+    padding-top: 1px;
 }
 
 .carrossel-comentarios-1 {
     text-align: center;
-    padding: 75px 0px 1px 17px;
+    padding: 63px 0px 0px 17px;
     width: 290px;
     font-size: 16px;
 }
@@ -64,10 +71,8 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin: -174px 0px 0px 71px;
-    width: 326px;
-    height: 288px;
-    padding-top: 122px;
+    margin: 0px 0px 0px 71px;
+    padding-top: 124px;
 }
 
 

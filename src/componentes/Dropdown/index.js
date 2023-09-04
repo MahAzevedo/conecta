@@ -8,6 +8,7 @@ const Dropdown = (props) => {
             <h4 className='dropdown-titulo'>ASSUNTO</h4>
             <label>{props.label}</label>
             <select>
+                <option> Selecione um assunto </option>
            {/*  {props.itens.map(item => <option key={item}>{item}</option>)}  */}
                 {props.itens.map(item => {
                     return<option key={item}>{item}</option>

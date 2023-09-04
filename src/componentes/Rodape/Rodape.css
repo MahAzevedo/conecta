@@ -1,36 +1,40 @@
 .rodape {
     color: #FFF;
     font-size: 12px;
-    opacity: 0.3;
-    /*font-style: normal;*/
-    /*font-weight: 400;*/
-    /*line-height: normal;*/
-
-
     margin: 0px 56px 0px 56px;
-    /* esse aqui pode ou não ficar, testar */
     text-align: center;
+    height: 114px;
 }
 
 .rodape-mensagem {}
 
-.rodape-texto {}
-
-
-/* FOOTER DA MARCA */
-
-.rodape-marca {}
-
-.rodape-texto1 {}
-
-@media screen and (min-width: 375px) {
-    .rodape-site {
-        background-image: url('/public/imagem/Grupo38.png');
-        background-repeat: no-repeat;
-        max-width: 100%;
-        color: #FFFFFF;
-    }
+.rodape-texto {
+    opacity: 0.3;
 }
+
+.rodape-container-logo {}
+
+.rodape-marca {
+    display: flex;
+    flex-direction: row;
+    margin-left: 71px;
+}
+
+.rodape-texto1 {
+    font-family: Inter;
+    font-size: 9px;
+}
+
+.rodape-site {
+    width: 100px;
+    height: 18px; 
+    background-image: url('/public/imagem/Grupo38.png');
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    margin: 8px 0px 0px 9px;
+}
+
+
 
 @media screen and (min-width: 768px) {
     .rodape-site {
@@ -47,4 +51,3 @@
         max-width: 100%;
     }
 }
-

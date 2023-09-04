@@ -41,6 +41,10 @@
     background: #1B1F1C;
 }
 
+.dropdown option {
+    display: flex;
+}
+
 .dropdown ::placeholder {
     color: #FFFFFF;
     opacity: 0.5;

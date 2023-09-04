@@ -6,7 +6,8 @@
     display: block;
     margin-bottom: 6px;
     font-size: 12px;
-    color: #00EC5B;
+    color: #FFF;
+    opacity: 0.296;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -17,9 +18,9 @@
     /* esse tamanho para se adaptar as telas */
     height: 46px;
     /* tamanho do campo do input */
-    /* background-color: rgba(255, 255, 255, 0.20);      essa aqui é so para o primeiro*/
-    border-top: 1px solid #00EC5B;
-    border-right: 1px solid #00EC5B;
+    /*background-color: rgba(255, 255, 255, 0.20);*/
+    border-top: 1px solid #FFF;
+    border-right: 1px solid #FFF;
     border-left: none;
     border-bottom: none;
     font-size: 16px;
@@ -28,8 +29,26 @@
     background: #1B1F1C;
 }
 
+.campo-texto-preenchido input {
+    border-top: 1px solid #00EC5B;
+    border-right: 1px solid #00EC5B;
+    background: rgba(255, 255, 255, 0.20);
+    color: #FFF;
+}
+
+.campo-texto-preenchido label {
+    color: #00EC5B;
+    opacity: 1;
+}
+
+.campo-texto input:focus {
+    background: rgba(255, 255, 255, 0.20);
+}
+
 .campo-texto ::placeholder {
     color: #FFFFFF;
     opacity: 0.5;
 }
+
+
 
