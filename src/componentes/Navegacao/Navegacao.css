@@ -35,6 +35,7 @@
     max-width: 100%;
     width: 212px;
     height: 372px;
+    margin-top: 18px;
 }
 
 .nav-titulo {
@@ -43,6 +44,7 @@
     letter-spacing: 1px;
     width: 299px;
     height: 111px;
+    margin-top: 5px;
 }
 
 .nav-botao {
@@ -55,6 +57,7 @@
     cursor: pointer;
     width: 327px;
     height: 56px;
+    margin-top: 18px;
 }
 
 .nav-botao-texto {

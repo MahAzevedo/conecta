@@ -1,13 +1,15 @@
 .formulario {
     background: #1B1F1C;
+    width: 375px;
+    height: 960px;
 }
 
-.formulario-titulo { 
+.formulario-titulo {
     color: #FFF;
     font-family: Artigo;
     font-size: 41px;
     text-align: center;
-    margin-top: 89px;
+    margin-top: 65px;
     padding-top: 73px;
 }
 
@@ -15,8 +17,8 @@
     display: flex;
     gap: 12px;
     align-items: center;
-    margin-top: -56px;
-    margin-left: 47px;
+    margin-top: 24px;
+    margin-left: 87px;
     padding-bottom: 25px;
 }
 
@@ -27,4 +29,3 @@
 .formulario-texto {
     color: #FFF;
 }
-

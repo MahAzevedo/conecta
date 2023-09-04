@@ -11,6 +11,7 @@ export const Divulgacao = () => {
                     </li>
                     <div className='divulgacao-ld'>
                         <li className='imagem-2-carrossel'>
+                            {/* carrossel entra aqui */}
                             <p className='carrossel-comentarios-1'>
                                 “Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit. Etiam
