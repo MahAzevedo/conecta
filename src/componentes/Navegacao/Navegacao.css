@@ -40,11 +40,9 @@
 .nav-titulo {
     font-family: Artigo;
     font-size: 38px;
-    line-height: 120%;
-    max-width: 100%;
-    text-align: center;
-    font-weight: 700;
-    line-height: 120%;
+    letter-spacing: 1px;
+    width: 299px;
+    height: 111px;
 }
 
 .nav-botao {
@@ -77,16 +75,16 @@
     }
 
     .nav-ul {
-        padding: 0px 7px 0px 0px;
+        padding: 0px 25px 0px 0px;
     }
 
     .nav-lata-banner-img {
         background-image: url('/public/imagem/768.lata-guarana1.png');
         background-repeat: no-repeat;
-        height: 530px;
+        height: 522px;
         width: 250px;
-        margin-top: 3rem;
-        margin-left: 18rem;
+        margin-top: 0rem;
+        margin-left: 19rem
     }
 
     .nav-logo-conecta {
@@ -101,16 +99,7 @@
     }
 
     .nav-titulo {
-        margin: -22rem 24rem 0rem -2rem;
-        line-height: 55px;
-        color: #FFF;
-        font-family: Artigo;
-        font-size: 48px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 120%;
-        width: 333px;
-        height: 111px;
+        margin: -21rem 24rem 0rem -4rem;
     }
 
     .nav-botao {
