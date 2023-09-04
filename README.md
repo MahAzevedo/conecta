@@ -1,5 +1,4 @@
-# Desafio conecta
-Desafio conecta 2023
+# Desafio conecta 2023
 
 Uma SPA usando:
 - React (js)
@@ -8,8 +7,10 @@ Uma SPA usando:
 ## Testando
 
 Este projeto foi feito utilizando Node 18 com `create-react-app`  
-Para instalar, acesse a pasta do projeto e depois:
+Para instalar, acesse a pasta do projeto e depois:  
+    
     npm install
 
-Para rodar, use:
+Para rodar, use:  
+    
     npm start
