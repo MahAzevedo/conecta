@@ -5,7 +5,6 @@ export const Navegacao = () => {
         <header className="nav-bar">
             <nav className='nav'>
                     <div className='nav-logo-conecta'>
-                        {/*<img src='public/imagem/Grupo38.png' alt='Logo CONECTA.' />*/}
                     </div>
                 <ul className='nav-ul'>
                     <li>
@@ -23,7 +22,6 @@ export const Navegacao = () => {
 
             <section className='nav-produto'>
                 <div className='nav-lata-banner-img'>
-                    {/* aqui ficava a imagem 375*/}
                 </div>
                 <div>
                     <h1 className='nav-titulo'>
@@ -36,9 +34,6 @@ export const Navegacao = () => {
                         Aqui um CTA
                     </p>
                 </button>
-                {/*<Botao >
-                    Aqui um CTA
-                </Botao>*/}
             </section>
         </header>
     );

@@ -1,13 +1,5 @@
-.nav-bar {
-    /*margin: 16px 30px;*/
-}
-
 .nav {
     display: flex;
-    /*flex-direction: row;
-    list-style: none;
-    text-align: center;
-    list-style: none;*/
 }
 
 .nav-logo-conecta {
@@ -103,8 +95,6 @@
         max-width: 100%;
         width: 134px;
         height: 51px;
-        /*margin: 24px 39px 11px 15px; */
-        /* padding: 11px 12px 2px 26px; */
         padding-top: 24px;
         padding-left: 15px;
         color: #FFFFFF;
@@ -146,7 +136,6 @@
         line-height: normal;
     }
 
-    /*  o botao ta em componente e eu ainda nao arrumei*/
 }
 
 
@@ -180,8 +169,6 @@
         max-width: 100%;
         width: 134px;
         height: 51px;
-        /*margin: 24px 39px 11px 15px; */
-        /* padding: 11px 12px 2px 26px; */
         padding-top: 24px;
         padding-left: 15px;
         color: #FFFFFF;

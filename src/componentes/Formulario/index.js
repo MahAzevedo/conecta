@@ -50,17 +50,3 @@ const Formulario = () => {
 
 export default Formulario;
 
-// Falta encaixar o COMPONENTE ASSUNTO 
-
-
-// Tá muito grande esse formulario, a origem desse form está em contato
-// que eu incluí aqui pelo corpo do assunto, mas tá grande 
-
-
-// colocar opacidade e tirar o espaço à esquerda de: telefone até mensagem
-// expandir o campo da mensagem
-// tirar o verde das outras propriedades, a cor deve ser branca #FFFFFF
-
-// no CAMPO-TEXTO só o PRIMEIRO É CLARO com LETRA BRANCA OPACA, o RESTANTE é escuro 
-
-// no CAMPO 
