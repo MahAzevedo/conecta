@@ -24,7 +24,7 @@ export const Card = () => {
                             </Botao>
                         </div>
                     </li>
-                    <li className='card-shape-produto'>
+                    <li className='card-shape-produto2'>
                         <div className='card-produto'>
                             <img src="/imagem/375.card.lata.guarana.png" alt="Lata de guaraná 100ml" />
                         </div>
