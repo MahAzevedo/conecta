@@ -8,22 +8,5 @@
 }
 
 .artigo {
-    font-family: 'Artigo', serif;
-}
-
-.experimentar {
-    color: #0E0E0E;
-    font-family: 'Artigo', serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    text-align: center;
-    border: none;
-    margin-top: 0px;
-    margin-bottom: -6px;
-}
-
-.experimentar-tipografia {
-    
+    font-family: Artigo;
 }

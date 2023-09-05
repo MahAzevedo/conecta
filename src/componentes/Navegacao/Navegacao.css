@@ -35,16 +35,16 @@
     max-width: 100%;
     width: 212px;
     height: 372px;
-    margin-top: 18px;
 }
 
 .nav-titulo {
     font-family: Artigo;
     font-size: 38px;
-    letter-spacing: 1px;
-    width: 299px;
-    height: 111px;
-    margin-top: 5px;
+    line-height: 120%;
+    max-width: 100%;
+    text-align: center;
+    font-weight: 700;
+    line-height: 120%;
 }
 
 .nav-botao {
@@ -57,7 +57,6 @@
     cursor: pointer;
     width: 327px;
     height: 56px;
-    margin-top: 18px;
 }
 
 .nav-botao-texto {
@@ -66,8 +65,6 @@
     padding: 4px;
     text-align: center;
 }
-
-
 
 @media screen and (min-width: 768px) {
 
@@ -80,16 +77,16 @@
     }
 
     .nav-ul {
-        padding: 0px 25px 0px 0px;
+        padding: 0px 7px 0px 0px;
     }
 
     .nav-lata-banner-img {
         background-image: url('/public/imagem/768.lata-guarana1.png');
         background-repeat: no-repeat;
-        height: 522px;
+        height: 530px;
         width: 250px;
-        margin-top: 0rem;
-        margin-left: 19rem
+        margin-top: 3rem;
+        margin-left: 18rem;
     }
 
     .nav-logo-conecta {
@@ -104,14 +101,16 @@
     }
 
     .nav-titulo {
-        margin: -22rem 24rem 0rem 0rem;
-        width: 316px;
-        height: 111px;
-        color: #FFF;   
+        margin: -22rem 24rem 0rem -2rem;
+        line-height: 55px;
+        color: #FFF;
+        font-family: Artigo;
         font-size: 48px;
+        font-style: normal;
         font-weight: 700;
         line-height: 120%;
-        letter-spacing: 1px;
+        width: 333px;
+        height: 111px;
     }
 
     .nav-botao {
@@ -138,23 +137,6 @@
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media screen and (min-width: 1440px) {
@@ -184,8 +166,14 @@
     .nav-logo-conecta {
         background-image: url('/public/imagem/Grupo38.png');
         background-repeat: no-repeat;
+        max-width: 100%;
+        width: 134px;
+        height: 51px;
+        padding-top: 24px;
+        padding-left: 15px;
+        color: #FFFFFF;
     }
-
+    
     .nav-botao {
         background-color: #00EC5B;
         color: #101213;

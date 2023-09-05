@@ -15,10 +15,8 @@ export const Experimentar = () => {
                 Quer experimentar?
             </Tipografia>
 
-            <Botao className="botao-experimentar">
-                <Tipografia className="experimentar-tipografia">
-                    Aqui um CTA
-                </Tipografia>
+            <Botao>
+                Aqui um CTA
             </Botao>
 
         </section>

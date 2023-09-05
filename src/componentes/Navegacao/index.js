@@ -23,9 +23,9 @@ export const Navegacao = () => {
             <section className='nav-produto'>
                 <div className='nav-lata-banner-img'>
                 </div>
-                <div className='nav-container-titulo'>
+                <div>
                     <h1 className='nav-titulo'>
-                        Aqui um título de 
+                        Aqui um título de <br/>
                         duas linhas
                     </h1>
                 </div>
