@@ -5,8 +5,8 @@ import { Experimentar } from './componentes/Experimentar';
 import Formulario from './componentes/Formulario';
 
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
+import Carousel from './componentes/Carousel';
+
 
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
     <div className="App">
       <Banner />
       <Produto />
-      <Divulgacao />
-      <Swiper />
+      {/* <Divulgacao />*/}
+      <Carousel />
       <Experimentar />
       <Formulario />
     </div>

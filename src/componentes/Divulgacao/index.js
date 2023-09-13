@@ -1,7 +1,7 @@
-import Swiper from 'swiper';
+
 import './Divulgacao.css'
 
-{/*import { Swiper, SwiperSlide } from 'swiper/react';*/}
+
 
 export const Divulgacao = () => {
     return (
@@ -14,10 +14,6 @@ export const Divulgacao = () => {
                     </li>
                     <div className='divulgacao-ld'>
                         <li className='imagem-2-carrossel'>
-                            <Swiper>
-                                <></>
-                            </Swiper>
-                            {/*<Carousel />*/}
                             {/* carrossel entra aqui */}
                             <p className='carrossel-comentarios-1'>
                                 “Lorem ipsum dolor sit amet,

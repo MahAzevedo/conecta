@@ -1,0 +1,63 @@
+.row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 0px;
+}
+
+.column {
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 0px;
+}
+
+.column {
+    background-image: url('/public/imagem/375.festa.png');
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width: 327px;
+    height: 520px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .column {
+        background-image: url('/public/imagem/768.festa.divulgacao.png');
+        background-repeat: no-repeat;
+        max-width: 100%;
+        width: 362px;
+        height: 829px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .column {
+        background-image: url('/public/imagem/1440.festa.png');
+        background-repeat: no-repeat;
+        max-width: 100%;
+        width: 566px;
+        height: 811px;
+    }
+}
